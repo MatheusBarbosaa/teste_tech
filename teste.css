@@ -48,8 +48,10 @@ body{
 
 .acima {
     text-align: right; /* Alinha o texto à direita */
-    margin-left: 48%; /* Adiciona margem à direita */
+    margin-left: 73%; /* Adiciona margem à direita */
     margin-top: 20px; /* Adiciona margem acima do parágrafo */
+    font-size: 16px;
+    color: #000000;
 }
 
 
@@ -66,7 +68,7 @@ body{
 
 .card-item {
     width: calc((100% - px) / 4);
-    max-width: 270px;
+    max-width: 300px;
     height: 400px;
     background: var(--gray);
     border-radius: 8px;
@@ -76,6 +78,9 @@ body{
     justify-content: space-around;
     padding: 20px;
     box-sizing: border-box;
+    color: #000000;
+    font-size: 10px;
+    width: 220px;
 }
 
 .card-content {
@@ -132,5 +137,36 @@ body{
     height: 100vh; /* Ocupa a altura total da viewport */
 }
 
+.card-title-01 {
+    color: #000000;
+}
 
+.card-title-02 {
+    color: #128144;
+}
 
+.card-title-03 {
+color: #2d2ddd;
+}
+
+.card-title-04 {
+color: blueviolet;
+}
+
+.cards-completos {
+    position: relative;
+    top: -180px; /* Ajuste a posição vertical conforme necessário */
+}
+
+.titulo {
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.titulo-1 {
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}

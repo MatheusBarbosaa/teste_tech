@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'GT Walsheim', sans-serif;
+}
+:root {
+    --orange: #3c39f5;
+    --blue: #ffffff;
+    --gray: #ececec;
+  }
+
+.texto-persuasivo {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cor-fundo {
+    background-color: #1EA358;
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+/* Definindo a cor personalizada para os botões */
+.custom-btn {
+    background-color: #1EA358;
+    border-color: #1EA358;
+    margin: 0 5px;
+}
+
+.custom-btn:hover {
+    background-color: #128144; 
+    border-color: #128144; 
+}
+
+.custom-btn:focus {
+    box-shadow: 0 0 0 0.25rem rgba(30, 163, 88, 0.5); 
+}
+
+.acima {
+    text-align: right; /* Alinha o texto à direita */
+    margin-left: 48%; /* Adiciona margem à direita */
+    margin-top: 20px; /* Adiciona margem acima do parágrafo */
+}
+
+
+.card-wrapper {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap; /* Permite que os cards sejam exibidos um ao lado do outro */
+    justify-content: center; /* Centraliza horizontalmente */
+    gap: 30px; /* Espaçamento entre os cards */
+    margin-top: 50px; /* Adiciona margem superior */
+    margin-bottom: 50px; /* Adiciona margem inferior */
+}
+
+
+.card-item {
+    width: calc((100% - px) / 4);
+    max-width: 270px;
+    height: 400px;
+    background: var(--gray);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-content h3:last-child {
+    margin-bottom: 20px;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.card-content button {
+    padding: 10px 20px;
+    background-color: #1EA358;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-content button:hover {
+    background-color: #128144;
+}
+
+.card-content ul {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.card-content ul li {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    height: 100vh; /* Ocupa a altura total da viewport */
+}
+
+
+

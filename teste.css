@@ -1,14 +1,15 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body{
+body {
     font-family: 'GT Walsheim', sans-serif;
+    margin: 0;
 }
+
 :root {
     --orange: #3c39f5;
     --blue: #ffffff;
     --gray: #ececec;
-  }
+}
 
 .texto-persuasivo {
     font-size: 50px;
@@ -23,7 +24,7 @@ body{
     background-color: #1EA358;
     margin: 0;
     padding: 0;
-    height: 400px;
+    height: 500px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -38,18 +39,21 @@ body{
 }
 
 .custom-btn:hover {
-    background-color: #128144; 
-    border-color: #128144; 
+    background-color: #128144;
+    border-color: #128144;
 }
 
 .custom-btn:focus {
-    box-shadow: 0 0 0 0.25rem rgba(30, 163, 88, 0.5); 
+    box-shadow: 0 0 0 0.25rem rgba(30, 163, 88, 0.5);
 }
 
 .acima {
-    text-align: right; /* Alinha o texto à direita */
-    margin-left: 73%; /* Adiciona margem à direita */
-    margin-top: 20px; /* Adiciona margem acima do parágrafo */
+    text-align: right;
+    /* Alinha o texto à direita */
+    margin-left: 73%;
+    /* Adiciona margem à direita */
+    margin-top: 20px;
+    /* Adiciona margem acima do parágrafo */
     font-size: 16px;
     color: #000000;
 }
@@ -58,11 +62,16 @@ body{
 .card-wrapper {
     max-width: 1000px;
     display: flex;
-    flex-wrap: wrap; /* Permite que os cards sejam exibidos um ao lado do outro */
-    justify-content: center; /* Centraliza horizontalmente */
-    gap: 30px; /* Espaçamento entre os cards */
-    margin-top: 50px; /* Adiciona margem superior */
-    margin-bottom: 50px; /* Adiciona margem inferior */
+    flex-wrap: wrap;
+    /* Permite que os cards sejam exibidos um ao lado do outro */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    gap: 30px;
+    /* Espaçamento entre os cards */
+    margin-top: 50px;
+    /* Adiciona margem superior */
+    margin-bottom: 50px;
+    /* Adiciona margem inferior */
 }
 
 
@@ -104,13 +113,14 @@ body{
 
 .card-content button {
     padding: 10px 20px;
-    background-color: #1EA358;
+    background-color: #3c39f5;
     border: none;
     border-radius: 5px;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    box-shadow: #000000 0px 2px 5px 0px;
 }
 
 .card-content button:hover {
@@ -131,14 +141,19 @@ body{
 
 .catalog {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    flex-direction: column; /* Alinha os elementos verticalmente */
-    height: 100vh; /* Ocupa a altura total da viewport */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    flex-direction: column;
+    /* Alinha os elementos verticalmente */
+    height: 100vh;
+    /* Ocupa a altura total da viewport */
 }
 
 .card-title-01 {
     color: #000000;
+
 }
 
 .card-title-02 {
@@ -146,16 +161,17 @@ body{
 }
 
 .card-title-03 {
-color: #2d2ddd;
+    color: #2d2ddd;
 }
 
 .card-title-04 {
-color: blueviolet;
+    color: blueviolet;
 }
 
 .cards-completos {
     position: relative;
-    top: -180px; /* Ajuste a posição vertical conforme necessário */
+    top: -180px;
+    /* Ajuste a posição vertical conforme necessário */
 }
 
 .titulo {
@@ -170,3 +186,4 @@ color: blueviolet;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
 }
+
